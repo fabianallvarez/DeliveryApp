@@ -1,0 +1,15 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.formulario {
+
+    &__grid {
+        @include m.tablet {
+            @include m.grid(2, v.$separacion);
+        }
+    }
+
+    &__imagen {
+        margin-top: v.$separacion;
+    }
+}

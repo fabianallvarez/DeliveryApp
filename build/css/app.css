@@ -464,4 +464,15 @@ h3 {
     width: auto;
   }
 }
+
+@media (min-width: 768px) {
+  .formulario__grid {
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.formulario__imagen {
+  margin-top: 5rem;
+}
 /*# sourceMappingURL=app.css.map */
